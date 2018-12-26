@@ -36,6 +36,7 @@ public class GunGame extends JavaPlugin {
 	/* MiniGame - Core-Klasse */
 	@Override
 	public void onEnable() {
+		/* JUSTIN  */
 		pl=this;
 		this.lobbyManager = new LobbyManager(this);
 		this.queueManager = new QueueManager();
