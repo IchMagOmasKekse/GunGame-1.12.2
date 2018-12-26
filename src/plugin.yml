@@ -1,0 +1,8 @@
+name: GunGame
+version: 1.0
+author: IchMagOmasKekse
+main: me.xxfreakdevxx.de.gungame.GunGame
+commands:
+  gg:
+    description: ''
+    aliases: [gungame, ggame]
