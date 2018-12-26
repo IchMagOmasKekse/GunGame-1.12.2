@@ -36,13 +36,15 @@ public class GunGame extends JavaPlugin {
 	/* MiniGame - Core-Klasse */
 	@Override
 	public void onEnable() {
-		/* JUSTIN  */
 		pl=this;
 		this.lobbyManager = new LobbyManager(this);
 		this.queueManager = new QueueManager();
 		this.editorManager = new EditorManager(this);
 		new JoinHandler(this);
 		new CommandEditMap(this);
+		dsfsd
+		sdfsa
+		sfa
 		getLobbyManager().createLobby(new Lobby(GGMap.MAP_FORREST, "L#1", new Location(Bukkit.getWorld("world"), join1x, join1y, join1z)));
 		getLobbyManager().createLobby(new Lobby(GGMap.MAP_FORREST, "L#2", new Location(Bukkit.getWorld("world"), join2x, join2y, join2z)));
 		timer.put("Particler", new BukkitRunnable() { @Override public void run() {EntryParticles.nextParticle();}});
